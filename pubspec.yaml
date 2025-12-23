@@ -1,0 +1,29 @@
+name: kaily_example
+description: Example app demonstrating Kaily Flutter Client usage
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  kaily_flutter_sdk:
+    path: ../
+  cupertino_icons: ^1.0.6
+
+# Note: The path dependency is only for development/example purposes.
+# In a real app, you would use:
+# kaily_flutter_sdk: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

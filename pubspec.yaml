@@ -10,8 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kaily_flutter_sdk:
-    path: ../
+  kaily_flutter_sdk: ^1.0.1+2
   cupertino_icons: ^1.0.6
 
 # Note: The path dependency is only for development/example purposes.

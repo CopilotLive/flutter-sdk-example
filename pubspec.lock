@@ -163,10 +163,11 @@ packages:
   kaily_flutter_sdk:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.0.0+2"
+      name: kaily_flutter_sdk
+      sha256: "566f89f2ae46227b3bac5b7227554f8f5a3d1d59fd346ab4fa2fbc8bf57194f7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1+2"
   leak_tracker:
     dependency: transitive
     description:

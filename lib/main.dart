@@ -228,7 +228,7 @@ class _HomePageState extends State<HomePage> {
       await KailySDK.instance.initialize(
         KailyConfig.withDefaults(
           token:
-              '90dabe12-5b40-493e-95dd-db3438f920dc', // Example token from the provided script
+              'you Kaily token here', // Example token from the provided script
           user: _user,
         ).copyWith(debugMode: true),
       );
@@ -521,7 +521,7 @@ class _HomePageState extends State<HomePage> {
               appBar: AppBar(title: const Text('Kaily Chat')),
               body: KailyWidget(
                 config: KailyConfig.withDefaults(
-                  token: '90dabe12-5b40-493e-95dd-db3438f920dc',
+                  token: 'you Kaily token here',
                   user: _user,
                 ).copyWith(debugMode: true),
                 onConversationLoaded: () {
